@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+}
+*::selection{
+    background-color: rgb(66, 162, 66);
+    color: white;
+}
+.nav{
+    width: 100%;
+    height: 120px;
+}
+.nav img{
+    position: relative;
+    left: 42%;
+    height: 80px;
+    width: 250px;
+}
+.div{
+    height: 140px;
+    width: 100%;
+    background-color: crimson;
+}
+.div h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+.main img{
+    height: 1100px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+form{
+    padding-left: 110px;
+    padding-top: 70px;
+}
+form h1{
+    font-size: 25px;
+}
+form .part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.part1 label{
+    font-size: 18px;
+}
+.part1 input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    height: 40px;
+    width:350px ;
+}
+form .part2{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.part2 label{
+    font-size: 18px;
+}
+.part2 input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    height: 40px;
+    width:350px ;
+}
+.part3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.part3 label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.part3 input{
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 20px;
+    width:50px ;
+}
+.part4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+}
+.part4 label{
+    font-size: 18px;
+    font-weight: 600;
+}
+.part4 input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    height: 40px;
+    width:350px ;
+}
+.part4 select{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    height: 40px;
+    width:330px ;
+}
+form p{
+    font-size: 17px;
+}
+.part5 label{
+    font-size: 18px;
+    font-weight: 600;
+}
+.part5 input{
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 20px;
+    width:50px ;
+}
+.part5 .i3{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    height: 40px;
+    width:330px ;
+}
+.part6 label{
+    font-size: 18px;
+    font-weight: 600;
+}
+.part6 textarea{
+    height: 150px;
+    width: 400px;
+}
+button{
+    height: 45px;
+    width: 400px;
+    color: white;
+    background-color: rgb(86, 138, 8);
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: rgb(3, 87, 3);
+}
+.footer{
+    padding-top: 100px;
+    height: 250px;
+    width: 100%;
+    color: rgb(164, 163, 163);
+    background-color: black;
+    font-size: 15px;
+    text-align: center;
+}

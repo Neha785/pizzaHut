@@ -1,0 +1,55 @@
+
+.nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.nav .d1 img{
+    height: 50px;
+    width: 200px;
+    padding-left: 180px;
+}
+.main{
+    background-color: white;
+    height: 330px;
+    border: 1px solid rgb(163, 162, 162);
+    border-radius: 5px;
+    width: 550px;
+    position: absolute;
+    left: 30%;
+    padding: 15px;
+}
+.main p{
+    font-size: 17px;
+    color: black;
+}
+.main .p1{
+    font-size: 20px;
+    color: rgb(175, 171, 171);
+}
+input{
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(238, 235, 235);
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+}
+button a{
+    color: grey;
+    font-size: 15px;
+    text-decoration: none;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+button a:hover{
+    color: white;
+}

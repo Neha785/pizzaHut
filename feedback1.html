@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./feedback1.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+<img src="./img/logo1.jpg" alt="">
+    </nav>
+    <div class="div">
+        <h1 style="position: relative;top: 45px;left: 25%;">We would love to hear your feedback</h1>
+    </div>
+    <main class="main">
+        <img src="./img/bg.jpg" alt="">
+        <form action="">
+            <h1>Let us know you better</h1><br>
+            <section class="part1">
+         <div>
+            <label for="">Your name*</label><br>
+            <input type="text" required placeholder="Enter Name">
+        </div>
+        <div>
+            <label for="">Your emai</label><br>
+            <input type="email" required placeholder="Enter Email Address">
+        </div>
+        <div>
+            <label for="">Your number</label><br>
+            <input type="number" required placeholder="Enter Phone Number">
+        </div>
+        </section>
+<br><br>
+        <h1>Store Details</h1><br>
+        <section class="part2">
+            <div>
+            <label for="">City of the Pizza Hut*</label><br>
+            <input type="text" required placeholder="Enter City Name">
+            </div>
+            <div>
+                <label for="">Select Store</label><br>
+                <input type="text" placeholder="Enter Store Name" >
+            </div>
+        </section>
+
+       <section class="part3">
+        <div><br><br>
+        <label for="" style="position: relative;left: -150px;">Order Type*</label><br><br>
+        <input type="radio"> Dine-in
+        <input type="radio">Take Away
+        <input type="radio">Delivery
+    </div>
+    <div><br><br>
+        <label for="">Order Method</label><br><br>
+        <input type="radio">At the Store
+        <input type="radio">Aggregator (Swiggy/Zomato)
+        <input type="radio">Pizza Hut (APP or Web)
+    </div>
+       </section>
+
+       <section class="part4">
+        <div><br><br>
+            <label for="">Time Of Visit*</label><br>
+            <select name="" id="">
+                <option value="">Select Time</option>
+                <option value="">11:00AM TO 02:00PM</option>
+                <option value="">02:00PM TO 05:00PM</option>
+                <option value="">05:00PM TO 08:00PM</option>
+                <option value="">08:00PM TO 11:00PM</option>
+            </select>
+        </div>
+        <div><br><br>
+            <label for="">Date Of Visit</label><br>
+            <input type="date" name="" id="">
+        </div>
+        <div><br><br>
+            <label for="">Your Order Id</label><br>
+            <input type="text" placeholder="Order ID">
+        </div>
+       </section>
+       <br><br><br>
+       <section class="part5">
+       <h1 style="position: relative;top: -10px;">Tell us about your experience*</h1>
+       <p>Would you like to give the staff recognition For the amazing PizzaHut experience, or raise a <br>complaint?</p>
+       <br><input type="radio">Appreciation <br><br>
+       <input type="radio">Complaint <br><br>
+       <input class="i3" type="text" placeholder="Enter Your Complaint">
+    </section>
+
+    <section class="part6"><br><br>
+        <label for="">Your Feedback*</label><br>
+        <textarea name="" id="" required></textarea>
+    </section><br><br>
+    <button id="myBtn">
+        Submit
+    </button><br><br>
+        </form>
+
+        <footer class="footer">
+            <p>Order a delicious pizza on the go, anywhere, anytime. Pizza Hut is happy to assist you with your home delivery. Every <br>time you order, you get a hot and fresh pizza delivered at your doorstep in less than thirty minutes. <br>
+                *T&C Apply. Hurry up and place your order now!</p>
+                <br><br>
+                <p>© 2024 Pizza Hut India. All rights reserved. License Number: 10017011004220</p>
+        </footer>
+    </main>
+
+    <script>
+        document.getElementById("myBtn").onclick=function(){
+            alert("Your Feedback Submitted Successfully !")
+
+        }
+    </script>
+</body>
+</html>

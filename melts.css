@@ -1,0 +1,205 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    color: whitesmoke;
+    border-bottom: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    .nav .sec1{
+        width: 50%;
+        position: absolute;
+        left: 12px;
+    }
+    .nav .sec2{
+        width: 40%;
+        display: flex;
+        align-items: center;
+
+        position: relative;
+        left: 20%;
+        color: gray;
+    }
+    .nav .sec2 i{
+        font-size: 20px;
+    }
+     .nav .sec1 img{
+        height: 50px;
+        width: 200px;
+        margin-left: 30px;
+    } 
+    
+    .nav2{
+        margin-left: 60px;
+        height: 50px;
+        width: 70%;
+        position: relative;
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+    }
+    .nav2 .div8{
+        width: 150px;
+         color: black;
+        height: 37px;
+        font-size: 18px;
+        padding-top: 15px;
+        padding-left: 150px;
+        border: 1px solid black;
+        border-color: rgb(231, 227, 227);
+    }
+    
+    .nav2 .div8 i{
+        font-size: 22px;
+        color: rgb(101, 227, 101);
+
+    }
+    .nav2 .div8:hover{
+        text-decoration: underline;
+    }
+    .nav2 .div9{
+        color: black;
+        height: 37px;
+        width: 80px;
+        padding-top: 15px;
+        padding-left: 20px;
+        font-weight: 500;
+        border: 1px solid black;
+        border-color: rgb(231, 227, 227);
+        
+    }
+    .nav2 .div9 a{
+        color: black;
+        font-size: 17.5px;
+        font-weight: 500;
+       text-decoration: none;
+    }
+    .nav2 .div9:hover{
+        text-decoration: underline;
+    }
+    
+    
+    aside{
+        left: 80%;
+        height:100vh;
+        width: 19%;
+        background-color:  rgb(245, 242, 242);
+        position: absolute;
+        z-index: 1;
+        position: fixed;
+        padding: 10px;
+    }
+    .d1 h1{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 700;
+    }
+    .d1 button{
+           height: 40px;
+           width: 300px;
+           background-color: white;
+           color: green;
+           font-size: 15px;
+           border: none;
+    }
+    aside .d1{
+        height:78vh ;
+    }
+    aside .d2{
+        height:20vh ;
+        background-color: white;
+    }
+    .d2 .b{
+        font-size: 20px;
+        font-weight: 700;
+        height: 40px;
+        width: 290px;
+        background-color: rgb(54, 186, 54);
+        color: white;
+        border-radius: 7px;
+        border: none;
+        padding: 5px;
+    }
+    .main img{
+       height: 1200px;
+       width: 100%;
+       position: absolute;
+       z-index: -1;
+       
+    }
+    .section{
+        height: 1050px;
+        width: 75%;
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        grid-template-rows: repeat(2,auto);
+        row-gap: 8px;
+        column-gap: 8px;
+        padding-left: 50px; 
+        padding-top: 10px;  
+        
+    }
+    .main .section div{
+        height: 510px;
+        width: 265px;
+    }
+    .main .section div:hover{
+        /* border: none; */
+        box-shadow: 0 0 2px 2px rgb(185, 184, 184);
+    }
+    .main .section div img{
+        height: 200px;
+        width: 265px;
+    } 
+    .main div .sec1{
+        height: 180px;
+    }
+    .main div .sec2{
+        padding-top: 5px;
+        height: 330px;
+        padding-left: 8px;
+        padding-right: 8px;
+     background-color: rgb(247, 246, 246);
+    }
+    .sec2 .head{
+        font-size: 17px;
+        font-weight: 550;
+    }
+    .sec2 .passage{
+        font-size: 15px;
+        left: -30px;
+    }
+    .sec2 .passage1{
+        font-size: 15.5px;
+        left: -30px;
+        color: rgb(96, 95, 95);
+    }
+    .b1{
+        height: 40px;
+        width: 240px;
+        background-color: rgb(25, 131, 25);
+        border-radius: 7px;
+        border: none;
+    }
+    .b1 pre{
+        color: white;
+        font-size: 15px;
+    }
+    .b1:hover{
+        background-color: rgb(2, 88, 2);
+    }
+    
+    .last{
+        position: relative;
+        top: 20px;
+        font-size: 14px;
+    color: rgb(103, 102, 102);
+    padding-left: 40px;
+    font-style: italic; 
+       }
